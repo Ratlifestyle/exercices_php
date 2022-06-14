@@ -1,0 +1,21 @@
+exercice 1 :
+--------------Creation d'une classe----------------------------
+- créer une classe voiture
+- ajouter les attributs couleur, poids, taille, vitesse en public
+- ajouter un constructeur qui prend en parametre la couleur, le poids et la taille,
+dans ce contruscteur affecter les valeurs prises en parametre aux variables de classe et assigner la valeur 0 a vitesse
+
+---------------Definition de methodes de classe----------------
+- definir une methode demarrer qui va mettre la vitesse a 40 
+- definir une methode arreter qui va mettre la vitesse a 0
+---------------Utilisation des objets--------------------------
+- instancier un objet voiture dans une variable $voiture
+- afficher la variable vitesse
+- appeler la méthode démarrer puis afficher la vitesse
+- appeler la méthode arreter puis afficher la vitesse
+---------------Encapsulation des attributs---------------------
+- a partir de l'objet voiture modifier le poids
+- afficher le poids de la voiture
+- mettre l'attribut poids en private puis essayer de changer sa valeur et l'afficher
+- ajouter des getters et des setters
+- modifier et afficher la variable poids a partir des getters et des setters

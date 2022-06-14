@@ -1,0 +1,16 @@
+-------------- Creation d´une classe parent------------
+creer une classe Vehicule avec comme attributs poids, taille, vitesse et couleur
+creer un constructeur, les getters et setters, une methode demarrer et arreter
+-------------- Creation d une classe fille-------------
+creer une classe Voiture qui herite de la classe vehicule avec comme attributs nbRoues + getters et setters
+creer une constructeur qui prend en parametre les attributs de la classe parents et nbRoues
+redefinir la methode demarrer
+faire la meme chose pour la classe Avion mais en changeant l'attribut nbRoues par nbAiles
+-------------------------- tests ----------------------
+dans exercice_2.php :
+Instancier un objet vehicule et tester ses methodes
+Instancier un objet Voiture et tester ses methodes
+Instancier un objet avion et tester ses methodes
+------------Creation dune classe abstraite-------------
+Rendre la classe Vehicule abstraite et rendre la methode demarrer abstraite
+Creer une classe Moto qui herite de la classe vehicule et y implementer les methodes nécessaires
